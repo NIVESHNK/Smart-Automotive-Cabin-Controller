@@ -41,6 +41,10 @@ These values describe the supplied screenshot and should not be interpreted as t
 
 The instructions assume the entry-point file is named `main.py`; adjust the command if the actual source file uses a different name.
 
+## OUTPUT
+<img width="866" height="633" alt="image" src="https://github.com/user-attachments/assets/b6204c8e-d057-419c-8faa-92b49f09dcd4" />
+
+
 ## Scope and Limitations
 
 This project demonstrates vehicle-state monitoring and driver-control interactions through a software-based graphical interface. It does not, by itself, establish communication with a physical vehicle or verify real automotive ECU hardware.
