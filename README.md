@@ -1,34 +1,39 @@
 # Smart Automotive Cabin Controller
 
-A Proteus-based body control module (BCM) project for an automotive cabin-control system.
+A Proteus project for a body control module (BCM) associated with an automotive cabin-control system.
 
-## Project files
+## Project file
 
-- `BCM_ECU.pdsprj` — Proteus project file provided for this repository.
+The original Proteus project archive is named `BCM_ECU.pdsprj`. It still needs to be uploaded to this repository's root so visitors can download and open it.
 
-## Current status
+## Project contents identified
 
-The project file has been identified, but the circuit behavior, firmware integration, and simulation results have not yet been independently verified. This README will be updated after the project files and test evidence are reviewed.
+Inspection of the supplied `.pdsprj` archive found:
+- `ROOT.DSN` — Proteus schematic/design data
+- `ROOT.CDB` — component/design database
+- `PROJECT.XML` — project metadata
+- `FIRMWARE.XML` — firmware-project metadata
+- `SCRIPTS/PWRRAILS.DAT` — power-rail definitions
 
-## Tools
+See [Project File Manifest](docs/PROJECT_FILE_MANIFEST.md) for details.
 
-- Proteus Design Suite (project file: `.pdsprj`)
+## Opening the project
 
-## How to open
+Once `BCM_ECU.pdsprj` is uploaded:
 
 1. Install a compatible version of Proteus Design Suite.
 2. Download or clone this repository.
 3. Open `BCM_ECU.pdsprj` in Proteus.
-4. Inspect the design and confirm any required linked files or firmware paths.
-5. Run the simulation only after verifying that all required dependencies are present.
+4. Check for any external firmware files or dependencies required by your local setup.
+5. Run the simulation and record the observed results.
 
-## Repository contents
+## Verification status
 
-The complete simulation may require additional files (for example, schematic/design files and firmware binaries or source). Add all required project dependencies before treating this repository as a reproducible simulation.
+The archive structure was inspected, but the circuit has not been run or independently verified here. No simulation pass/fail result is claimed. Add screenshots and test cases after verifying the project in Proteus.
 
-## Testing
+## Tools
 
-No simulation result is claimed in this repository yet. Add screenshots and documented test cases after verifying the project in Proteus.
+- Proteus Design Suite
 
 ## Author
 
